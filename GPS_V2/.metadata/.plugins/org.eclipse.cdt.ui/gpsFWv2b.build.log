@@ -1,0 +1,53 @@
+14:30:45 **** Incremental Build of configuration Debug for project gpsFWv2b ****
+make all 
+Building file: ../Src/dma.c
+Invoking: MCU GCC Compiler
+/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Debug
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32L010x4 -I"/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Inc" -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/dma.d" -MT"Src/dma.o" -o "Src/dma.o" "../Src/dma.c"
+Finished building: ../Src/dma.c
+ 
+Building file: ../Src/gpio.c
+Invoking: MCU GCC Compiler
+/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Debug
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32L010x4 -I"/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Inc" -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/gpio.d" -MT"Src/gpio.o" -o "Src/gpio.o" "../Src/gpio.c"
+Finished building: ../Src/gpio.c
+ 
+Building file: ../Src/i2c.c
+Invoking: MCU GCC Compiler
+/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Debug
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32L010x4 -I"/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Inc" -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/i2c.d" -MT"Src/i2c.o" -o "Src/i2c.o" "../Src/i2c.c"
+Finished building: ../Src/i2c.c
+ 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Debug
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32L010x4 -I"/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Inc" -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building file: ../Src/tim.c
+Invoking: MCU GCC Compiler
+/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Debug
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32L010x4 -I"/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Inc" -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/tim.d" -MT"Src/tim.o" -o "Src/tim.o" "../Src/tim.c"
+Finished building: ../Src/tim.c
+ 
+Building file: ../Src/usart.c
+Invoking: MCU GCC Compiler
+/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Debug
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32L010x4 -I"/Daten1/Daten/funk/sat/Amsat-Boards/firmware/GPS_V2/GPS_V2/gpsFWv2b/Inc" -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/home/kurt/STM32Cube/Repository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Include  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/usart.d" -MT"Src/usart.o" -o "Src/usart.o" "../Src/usart.c"
+Finished building: ../Src/usart.c
+ 
+Building target: gpsFWv2b.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32L010F4Px_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "gpsFWv2b.elf" @"objects.list"   -lm
+Finished building target: gpsFWv2b.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "gpsFWv2b.elf" "gpsFWv2b.hex"
+arm-none-eabi-size "gpsFWv2b.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14992	    160	   1728	  16880	   41f0	gpsFWv2b.elf
+ 
+
+14:30:46 Build Finished (took 813ms)
+

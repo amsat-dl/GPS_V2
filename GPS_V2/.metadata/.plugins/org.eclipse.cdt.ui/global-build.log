@@ -437,3 +437,6 @@ arm-none-eabi-size "gpsFWv2b.elf"
    text	   data	    bss	    dec	    hex	filename
   14992	    160	   1728	  16880	   41f0	gpsFWv2b.elf
  
+14:37:08 **** Incremental Build of configuration Debug for project gpsFWv2b ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
